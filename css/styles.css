@@ -1,0 +1,286 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E88D67;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #006989;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.5em;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none; /* Hide nav by default */
+    background-color: #005C78;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+header nav ul.visible {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 5px 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background-color: #E88D67;
+    border-radius: 5px;
+}
+
+/* Burger Menu Styles */
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.toggle .line2 {
+    opacity: 0;
+}
+
+.burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #006989;
+}
+
+ol, ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #006989;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+    header .logo h1 {
+        font-size: 2em;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        display: flex; /* Show nav by default */
+        width: auto;
+    }
+
+    header nav ul li {
+        margin: 0 10px;
+    }
+
+    .burger {
+        display: none; /* Hide menu toggle button */
+    }
+
+    main {
+        margin: 40px auto;
+        padding: 40px;
+        max-width: 800px;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 992px) {
+    header .logo h1 {
+        font-size: 2.5em;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    main {
+        max-width: 1000px;
+    }
+}
+
+/* Guide Section Styles */
+.guide {
+    padding: 20px;
+}
+
+.guide h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.step {
+    margin-bottom: 40px;
+    padding: 10px;
+    background: #F3F7EC;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #006989;
+}
+
+.info-item {
+    margin-bottom: 15px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.info-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
