@@ -1,64 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaston 667</title>
-    <link rel="stylesheet" href="../css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus France</title>
+  <link rel="stylesheet" href="../css/lol.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <h1 style="font-size: x-large;">Le Guide Ultime Pour Fuir Le Paradis.</h1>
+<body class="theme-light campus-page">
+    <header class="campus-header">
+    <div class="campus-header-container">
+        <h1 class="campus-title">Campus France</h1>
+        <nav class="campus-nav">
+        <ul class="campus-nav-links">
+            <li><a href="/CCFG-667/index.html">Accueil</a></li>
+            <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
+            <li><a href="/CCFG-667/pages/dossier-france-visa.html">France visa</a></li>
+        </ul>
+        <div class="campus-burger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/CCFG-667/index.html">Flash info</a></li> 
-                <li><a href="/CCFG-667/ancien-acceuil.html">Accueil</a></li>
-                <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
-                <li><a href="/CCFG-667/pages/compte-campus-france.html">Campus-France</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
         </nav>
+    </div>
     </header>
 
-    <main>
-        <h1>Campus France</h1>
-        <section class="guide">
-    
-            <div class="step card">
-                <h3>Étape 1 : Créer son compte Campus France</h3>
-                <p>Pour commencer, vous devez créer votre compte sur le site de Campus France.</p>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XU9OUjFwSZM?si=mV5CYxNERbhR3a-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
 
-            <a href="etepe2.html"><div id="E2" class="step card">
-                <h3>Étape 2 : Remplir la partie "Je saisis mon dossier"</h3>
-                <h4>1.1 : Je saisis mes informations personnelles</h4>
-                <img src="../img/1.1Image.png" alt="Étape 2 Image">
-                <p style="color: red;">Pour voir le guide, Cliquez sur la photos</p>
-            </div></a>
-              
-                    
-            <a href="etape-3.html"><div id="E3" class="step card">
-                <h3>Étape 3 : Remplir la partie "Je suis accepté"</h3>
-                <p>Pour cette étape, veuillez suivre les instructions fournies sur le site de Campus France après avoir été accepté.</p>
-                <img src="../img/Finalise.png" alt="Étape 3 Image">
-                <p style="color: red;">Pour voir le guide, Cliquez sur la photos</p>
-            </a>
-            </div>
-        </section>
-    </main>
+  <main class="campus-container">
 
-    <footer>
-        <p>&copy; Algassimou Pellel Diallo 2024. Tous droits réservés.</p>
-    </footer>
-    <script src="../js/script.js"></script>
+    <section class="campus-step-card">
+      <div class="campus-step-text">
+        <h2>Étape 1 : Créer son compte Campus France</h2>
+        <p>Pour commencer, vous devez créer votre compte sur le site de Campus France.</p>
+        <div class="video-container">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/XU9OUjFwSZM?si=mV5CYxNERbhR3a-B" title="Créer un compte Campus France" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <img src="../img_bg/ccfg.png" alt="Campus France logo" class="campus-step-image">
+    </section>
+
+    <a href="etepe2.html" class="campus-link-card">
+      <section class="campus-step-card">
+        <div class="campus-step-text">
+          <h2>Étape 2 : Remplir la partie « Je saisis mon dossier »</h2>
+          <p>1.1 : Je saisis mes informations personnelles</p>
+        </div>
+        <img src="../img/1.1Image.png" alt="Étape 2" class="campus-step-image">
+      </section>
+    </a>
+
+    <a href="etape-3.html" class="campus-link-card">
+      <section class="campus-step-card">
+        <div class="campus-step-text">
+          <h2>Étape 3 : Remplir la partie « Je suis accepté »</h2>
+          <p>Suivez les instructions sur le site Campus France une fois que vous êtes accepté.</p>
+        </div>
+        <img src="../img/Finalise.png" alt="Étape 3" class="campus-step-image">
+      </section>
+    </a>
+
+  </main>
+
+  <footer class="campus-footer">
+    <p>&copy; Algassimou Pellel Diallo 2024. Tous droits réservés.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
 </body>
 </html>

@@ -41,3 +41,14 @@ burger.addEventListener('click', () => {
     nav.classList.toggle('visible');
 });
 
+
+
+function toggleTheme() {
+  document.body.classList.toggle('theme-dark');
+  document.body.classList.toggle('theme-light');
+}
+
+function toggleMenu() {
+  const navLinks = document.querySelector('.campus-nav-links');
+  navLinks.classList.toggle('show');
+}
