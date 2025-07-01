@@ -16,6 +16,8 @@
           <li><a href="/CCFG-667/index.html">Accueil</a></li>
           <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
           <li><a href="/CCFG-667/pages/dossier-france-visa.html">France visa</a></li>
+          <li><button onclick="toggleTheme()">Mode nuit 🌙</button></li>
+
         </ul>
         <div class="campus-burger" onclick="toggleMenu()">
           <span></span><span></span><span></span>
@@ -26,7 +28,13 @@
 
   <main class="etape2-campus-france-container">
     <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>
-     
+
+    <a href="./documents-necessaires.html" class="etape2-warning-link">
+      ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong><br>
+      Avant de commencer, assurez-vous d’avoir tous les documents nécessaires pour campus france. Cliquez ici pour voir la liste 📄
+    </a>
+
+
     <div class="etape2-campus-france-warning">
       ⚠️ Cette vidéo est une aide indicative réalisée par un étudiant sénégalais.
       <strong>Vérifiez les différences avec le système guinéen dans les captures ci-dessous</strong>.
@@ -45,6 +53,11 @@
       <div class="etape2-progress-text" id="etape2ProgressText"></div>
       </div>
     <div class="etape2-step active" id="etape2-step-0">
+      <h2>Étape 2 : Je saisis mon dossier</h2>
+      <p>Pour acceder à la partie concerner cliquer ici</p>
+      <img src="../img/capture_en_fr.png" alt="Étape 2">
+
+      
       <h3>Identifiants et photo</h3>
       <p>Scanner une photo d'identité 300DPI (26x32mm, JPG ou PNG, max 50ko).</p>
       <p>Compresser la photo :
@@ -114,7 +127,7 @@
       <h3>Fin</h3>
       <p>Si "complet" s'affiche : vous avez terminé étape 2.</p>
       <img src="../img/complet.png">
-      <p><a href="compte-campus-france.html#E3">Passer à l'étape 3 →</a></p>
+      <a href="compte-campus-france.html#E3" class="etape2-next-step-btn">🎯 Passer à l'étape 3 →</a>
     </div>
   </section>
 
