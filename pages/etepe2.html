@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/lol.css" />
 </head>
 <body class="theme-light etape2-campus-france-page">
+
   <header class="campus-header">
     <div class="campus-header-container">
       <h1 class="campus-title">Campus France</h1>
@@ -24,26 +25,103 @@
   </header>
 
   <main class="etape2-campus-france-container">
-    <section class="etape2-campus-france-intro">
-      <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>
-      <p><a href="documents-necessaires.html" class="etape2-campus-france-link">Voir la liste des documents nécessaires →</a></p>
-       <!-- Message de précaution -->
-        <div class="etape2-campus-france-warning">
-            ⚠️ Cette vidéo est une aide indicative réalisée par un étudiant sénégalais.  
-            <strong>Vérifiez les différences avec le système guinéen</strong> dans les captures ci-dessous.
-        </div>
-      <div class="etape2-campus-france-video">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/a5xP4gcAIYc?si=1wYmMqNq2MIWsdip" title="Vidéo d'explication" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>
+    <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>
+     
+    <div class="etape2-campus-france-warning">
+      ⚠️ Cette vidéo est une aide indicative réalisée par un étudiant sénégalais.
+      <strong>Vérifiez les différences avec le système guinéen dans les captures ci-dessous</strong>.
+    </div>
 
-    <section class="etape2-campus-france-guide" id="guide-container">
-      <!-- Étapes ajoutées via JavaScript -->
-    </section>
+    <div class="etape2-campus-france-video">
+      <iframe src="https://www.youtube.com/embed/a5xP4gcAIYc?si=1wYmMqNq2MIWsdip" title="Vidéo d'explication" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+   
+
+    <section id="etape2StepsContainer">
+       <p>Progression : <span id="etape2ProgressText">Étape 1 sur 9</span></p>
+      <div class="etape2-progress-container">
+      <div class="etape2-progress-bar" id="etape2ProgressBar"></div>
+      <div class="etape2-progress-text" id="etape2ProgressText"></div>
+      </div>
+    <div class="etape2-step active" id="etape2-step-0">
+      <h3>Identifiants et photo</h3>
+      <p>Scanner une photo d'identité 300DPI (26x32mm, JPG ou PNG, max 50ko).</p>
+      <p>Compresser la photo :
+        <a href="https://www.compress2go.com/fr" target="_blank">https://www.compress2go.com/fr</a>
+      </p>
+      <img src="../img/identity.png" alt="Photo d'identité">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-1">
+      <h3>Identité</h3>
+      <p>Joindre une copie de votre pièce d'identité, vérifier l'exactitude des infos.</p>
+      <img src="../img/passepor-3.png" alt="justificatifs">
+      <img src="../img/passepor-2.png" alt="ajout passeport">
+      <img src="../img/passepor.png" alt="modification">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-2">
+      <h3>Coordonnées</h3>
+      <p>Si vous êtes à Kamsar : code 04 + quartier + district + numéro bâtiment.</p>
+      <img src="../img/coor.png" alt="coordonnées">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-3">
+      <h3>Statut particulier</h3>
+      <p>Mettez « Étudiant en classe de terminale inscrit dans un lycée français ».</p>
+      <img src="../img/statut-particulier.png" alt="statut">
+      <p>Ajoutez : certificat de scolarité, attestation CNED...</p>
+      <img src="../img/justif-scolariter.png" alt="justificatifs">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-4">
+      <h3>CV</h3>
+      <p>Ajoutez votre CV.</p>
+      <img src="../img/cv-1.png" alt="cv">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-5">
+      <h3>Mon cursus</h3>
+      <p>Ajoutez vos bulletins de seconde, première, terminale et bac.</p>
+      <img src="../img/cursus-1.png">
+      <img src="../img/ajout.png">
+      <img src="../img/1.png">
+      <img src="../img/2.png">
+      <img src="../img/3.png">
+      <img src="../img/enregistrer.png">
+      <img src="../img/bul.png">
+      <img src="../img/bacbul.png">
+      <img src="../img/bacbul-2.png">
+      <img src="../img/bacbul-3.png">
+      <img src="../img/cursus.png">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-6">
+      <h3>Niveau de français</h3>
+      <p>Pas nécessaire si vous êtes dans un lycée français ou pays francophone.</p>
+      <img src="../img/Niveaufr.png">
+      <img src="../img/nF.png">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-7">
+      <h3>Séjours en France & Langues</h3>
+      <p>Remplissez selon votre situation.</p>
+      <img src="../img/fin.png">
+    </div>
+
+    <div class="etape2-step" id="etape2-step-8">
+      <h3>Fin</h3>
+      <p>Si "complet" s'affiche : vous avez terminé étape 2.</p>
+      <img src="../img/complet.png">
+      <p><a href="compte-campus-france.html#E3">Passer à l'étape 3 →</a></p>
+    </div>
+  </section>
+
 
     <div class="etape2-campus-france-nav-btns">
-      <button id="prevStep" class="etape2-campus-france-next-btn" disabled>Précédent</button>
-      <button id="nextStep" class="etape2-campus-france-next-btn">Suivant</button>
+      <button class="etape2-prev-btn" onclick="prevEtape2()">Précédent</button>
+      <button class="etape2-next-btn" onclick="nextEtape2()">Suivant</button>
     </div>
   </main>
 
