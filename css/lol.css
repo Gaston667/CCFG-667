@@ -1,11 +1,20 @@
 :root {
-  --color-bg: #ffffff;
+  /* --color-bg: #ffffff;
   --color-text: #1a1a1a;
   --color-primary: #004080;
   --color-secondary: #ffffff;
   --color-accent: #ff6f61;
   --color-card: #f8f9fa;
-  --color-border: #ddd;
+  --color-border: #ddd; */
+
+  --color-bg: #f4f1e8;        /* Beige clair, fond rétro */
+  --color-text: #2d2d2d;      /* Gris foncé lisible */
+  --color-primary: #3b5998;   /* Bleu rétro style Windows XP / GUI */
+  --color-secondary: #ffffff; /* Boutons ou arrière-plans secondaires */
+  --color-accent: #b03030;    /* Rouge foncé rétro (alerte ou hover) */
+  --color-card: #eae7dc;      /* Fond de blocs cartes légèrement contrasté */
+  --color-border: #c0c0c0;    /* Gris neutre style vieilles interfaces */
+
 }
 
 body.theme-dark {
@@ -62,11 +71,15 @@ body {
 }
 
 .home-step-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--color-card);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 1.5rem;
   width: 280px;
+
   text-align: center;
   box-shadow: 0 0 8px rgba(0,0,0,0.05);
   transition: transform 0.3s;
@@ -320,3 +333,132 @@ h1, h2, h3 {
 p {
   line-height: 1.6;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== Etape 2 ==== */
+/* === BASE === */
+body.etape2-campus-france-page {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === CONTAINER PRINCIPAL === */
+.etape2-campus-france-container {
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* === TITRES & LIENS === */
+.etape2-campus-france-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.etape2-campus-france-link {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* === VIDÉO === */
+.etape2-campus-france-video iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  border: none;
+}
+
+/* === BLOC D'ÉTAPE === */
+.etape2-campus-france-block {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.etape2-campus-france-block h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
+.etape2-campus-france-block p,
+.etape2-campus-france-block a {
+  font-size: 0.95rem;
+}
+
+.etape2-campus-france-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 0.5rem 0 1rem;
+}
+
+/* === NAVIGATION ÉTAPES (boutons suivant/précédent) === */
+.etape2-campus-france-nav-btns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 2rem auto 0;
+  gap: 1rem;
+}
+
+.etape2-campus-france-next-btn {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+  transition: background-color 0.3s ease;
+}
+
+.etape2-campus-france-next-btn:hover {
+  background-color: var(--color-accent);
+}
+
+.etape2-campus-france-warning {
+  color: #b03030; /* rouge rétro */
+  background-color: #fff0f0;
+  border-left: 4px solid #b03030;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  border-radius: 6px;
+}
+
+
+/* === PIED DE PAGE === */
+.etape2-campus-france-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: var(--color-card);
+  border-top: 1px solid var(--color-border);
+}
+
+
+
