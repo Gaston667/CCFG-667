@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Bienvenue – CCFG</title>
-        <link rel="stylesheet" href="<?= CSS_PATH ?>" />
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
 
     <body class="theme-light home-page">
@@ -29,7 +29,7 @@
             <img src="./img_bg/rdv.png" alt="Calendrier" class="home-step-icon">
             <h2 class="home-step-title">RDV Capago</h2>
             <p class="home-step-desc">Prendre rendez-vous Capago</p>
-            <a href="./pages/rendez-vous-capago.html" class="btn-primary">Commencer</a>
+            <a href="<?= BASE_URL?>/pages/rendez-vous-capago.php" class="btn-primary">Commencer</a>
             </section>
 
             <section class="home-step-card">
