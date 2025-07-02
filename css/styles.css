@@ -234,6 +234,70 @@ body {
     right: -0.6rem;
   }
 }
+.home-visitor-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 1.5rem auto 2rem;
+  padding: 1rem;
+  max-width: 600px;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.visitor-card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--color-bg);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  flex: 1 1 45%;
+  min-width: 120px;
+  transition: transform 0.2s;
+}
+
+.visitor-card:hover {
+  transform: scale(1.03);
+}
+
+.visitor-icon {
+  font-size: 1.5rem;
+}
+
+.visitor-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.visitor-label {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+.visitor-count {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .home-visitor-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  .visitor-card {
+    width: 100%;
+  }
+}
+
+
+
 
 
 
