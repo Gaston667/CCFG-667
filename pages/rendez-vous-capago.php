@@ -5,7 +5,7 @@
 
     <div class="capago-warning">
       ⚠️ <strong>Il est important de bien comprendre les étapes et de consulter les documents nécessaires</strong><br>
-      <a href="<?= BASE_URL ?>/pages/documents-necessaires.html" class="capago-doc-link">Voir la liste des documents requis →</a>
+      <a href="<?= BASE_URL ?>/pages/documents-necessaires.php" class="capago-doc-link">Voir la liste des documents requis →</a>
     </div>
 
     <section class="capago-steps">

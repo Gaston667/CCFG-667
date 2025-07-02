@@ -3,7 +3,7 @@
   <main class="etape2-campus-france-container">
     <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>
 
-    <a href="<?= BASE_URL ?>/pages/documents-necessaires.html" class="etape2-warning-link">
+    <a href="<?= BASE_URL ?>/pages/documents-necessaires.php" class="etape2-warning-link">
       ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong><br>
       Avant de commencer, assurez-vous d’avoir tous les documents nécessaires pour campus france. Cliquez ici pour voir la liste 📄
     </a>
