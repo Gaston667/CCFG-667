@@ -47,7 +47,7 @@
         <h3>Et enfin...</h3>
         <img src="../img/Finouf.png" alt="">
         <p><strong>Fin de l'étape 3.</strong></p>
-        <a class="etape3-next-btn" href="./compte-campus-france.html">Terminer</a>
+        <a class="etape3-next-btn" href="<?= BASE_URL ?>/pages/compte-campus-france.php">Terminer</a>
     </div>
     </main>
 

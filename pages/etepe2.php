@@ -3,7 +3,7 @@
   <main class="etape2-campus-france-container">
     <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>
 
-    <a href="./documents-necessaires.html" class="etape2-warning-link">
+    <a href="<?= BASE_URL ?>/pages/documents-necessaires.html" class="etape2-warning-link">
       ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong><br>
       Avant de commencer, assurez-vous d’avoir tous les documents nécessaires pour campus france. Cliquez ici pour voir la liste 📄
     </a>
@@ -101,14 +101,13 @@
       <h3>Fin</h3>
       <p>Si "complet" s'affiche : vous avez terminé étape 2.</p>
       <img src="../img/complet.png">
-      <a href="compte-campus-france.html#E3" class="etape2-next-step-btn">🎯 Passer à l'étape 3 →</a>
+      <a href="<?= BASE_URL ?>/pages/compte-campus-france.php#E3" class="etape2-next-step-btn">🎯 Passer à l'étape 3 →</a>
     </div>
   </section>
 
-
-    <div class="etape2-campus-france-nav-btns">
-      <button class="etape2-prev-btn" onclick="prevEtape2()">Précédent</button>
-      <button class="etape2-next-btn" onclick="nextEtape2()">Suivant</button>
+  <div class="etape2-campus-france-nav-btns">
+    <button class="etape2-prev-btn" onclick="prevEtape2()">Précédent</button>
+    <button class="etape2-next-btn" onclick="nextEtape2()">Suivant</button>
     </div>
   </main>
 
