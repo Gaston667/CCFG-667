@@ -1,4 +1,6 @@
-<?php require_once '../includes/header.php'; ?>
+<?php
+$title = "Étape 3 - Je suis accepté";
+require_once '../includes/header.php'; ?>
     <main class="etape3-container">
     <h1 class="etape3-title">Campus France - Étape 3 : Je suis accepté</h1>
     <div class="etape3-progress-container">

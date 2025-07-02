@@ -1,4 +1,6 @@
-<?php require_once '../includes/header.php'; ?>
+<?php
+$title = "Rendez-vous Capago";
+require_once '../includes/header.php'; ?>
 
   <main class="capago-container">
     <h2 class="capago-subtitle">Étapes pour Prendre un Rendez-vous Capago</h2>

@@ -1,4 +1,6 @@
-<?php require_once '../includes/header.php'; ?>
+<?php
+$title = "Étape 2 - Je saisis mon dossier";
+require_once '../includes/header.php'; ?>
 
   <main class="etape2-campus-france-container">
     <h2 class="etape2-campus-france-subtitle">Je saisis mon dossier</h2>

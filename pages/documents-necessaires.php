@@ -1,4 +1,6 @@
-<?php require_once '../includes/header.php'; ?>
+<?php
+$title = "Documents Nécessaires";
+require_once '../includes/header.php'; ?>
 
     <main>
         <section>

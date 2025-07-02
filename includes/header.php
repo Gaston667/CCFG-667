@@ -7,7 +7,7 @@ require_once __DIR__ . '/counter.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaston 667</title>
+    <title><?= isset($title) ? $title : 'CCFG' ?></title>
     <link rel="stylesheet" href=<?= CSS_PATH ?>>
 </head>
 <body>

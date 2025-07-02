@@ -1,10 +1,13 @@
-<?php require_once './includes/config.php'; ?>
+<?php require_once './includes/config.php'; 
+require_once './includes/counter.php'; 
+$title = "Accueil"; 
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Bienvenue – CCFG</title>
+        <title><?php if (isset($title)) echo $title; else echo "CCFG"; ?></title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
 

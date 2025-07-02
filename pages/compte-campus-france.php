@@ -1,4 +1,6 @@
-<?php require_once '../includes/header.php'; ?>
+<?php
+$title = "Compte Campus France";
+require_once '../includes/header.php'; ?>
 
   <main class="campus-container">
 
