@@ -16,7 +16,7 @@ require_once '../config.php';
       <h1 class="campus-title">Campus France</h1>
       <nav class="campus-nav">
         <ul class="campus-nav-links">
-          <li><a href="<?= BASE_URL ?>/index.html">Accueil</a></li>
+          <li><a href="<?= BASE_URL ?>/index.php">Accueil</a></li>
           <li><a href="<?= BASE_URL ?>/pages/rendez-vous-capago.php">RDV-CAPAGO</a></li>
           <li><a href="<?= BASE_URL ?>/pages/compte-campus-france.php">Campus-France</a></li>
           <li><a href="<?= BASE_URL ?>/pages/dossier-france-visa.php">France visa</a></li>
