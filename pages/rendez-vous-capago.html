@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rendez-vous Capago Guinée - [Nom du Site]</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <script src="../js/script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rendez-vous Capago Guinée</title>
+  <link rel="stylesheet" href="../css/styles.css" />
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <h1 style="font-size: x-large;">Le Guide Ultime Pour Fuir Le Paradis.</h1>
+<body class="theme-light capago-page">
+
+  <header class="campus-header">
+    <div class="campus-header-container">
+      <h1 class="campus-title">Le Guide Ultime Pour Fuir Le Paradis</h1>
+      <nav class="campus-nav">
+        <ul class="campus-nav-links">
+          <li><a href="/CCFG-667/ancien-acceuil.html">Accueil</a></li>
+          <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
+          <li><a href="/CCFG-667/pages/compte-campus-france.html">Campus-France</a></li>
+          <li><a href="/CCFG-667/pages/dossier-france-visa.html">France Visa</a></li>
+            <li><button onclick="toggleTheme()">Mode nuit 🌙</button></li>
+        </ul>
+        <div class="campus-burger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
         </div>
-        <nav>
-            <ul>
-               <li><a href="/CCFG-667/index.html">Flash info</a></li> 
-                <li><a href="/CCFG-667/ancien-acceuil.html">Accueil</a></li>
-                <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
-                <li><a href="/CCFG-667/pages/compte-campus-france.html">Campus-France</a></li>
-                <!-- <li><a href="documents-necessaires.html">Doc</a></li> -->
-                <!-- <li><a href="dossier-france-visa.html">France visa</a></li> -->
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Étapes pour Prendre un Rendez-vous</h2>
-            <ol>
-                <li>Visitez le site de <a href="https://visa-fr-gn.capago.eu/splash">Capago Guinée</a>.</li>
-                <li>Suivez les instructions de la video pour créer un compte.</li>
-                <li>Sélectionnez une date et une heure pour votre rendez-vous.</li>
-                <li>Préparez les documents nécessaires pour le rendez-vous.</li>
-            </ol>
-            
-        </section>
+      </nav>
+    </div>
+  </header>
 
-        <p>Consultez la vidéo d'aide ci-dessous ou sur ce lien : <a href="https://www.youtube.com/watch?v=HTHH7az_3X4" target="_blank" rel="noopener">Vidéo d'aide</a></p>
+  <main class="capago-container">
+    <h2 class="capago-subtitle">Étapes pour Prendre un Rendez-vous Capago</h2>
 
+    <div class="capago-warning">
+      ⚠️ <strong>Il est important de bien comprendre les étapes et de consulter les documents nécessaires</strong><br>
+      <a href="documents-necessaires.html" class="capago-doc-link">Voir la liste des documents requis →</a>
+    </div>
 
-        <!-- Ajout de la vidéo -->
-        <section class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HTHH7az_3X4?si=-pkaXMDhrNJK2y8B" title="YouTube video player"
-             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
-        </section>
+    <section class="capago-steps">
+      <ol>
+        <li>Visitez le site officiel : <a href="https://visa-fr-gn.capago.eu/splash" target="_blank">Capago Guinée</a></li>
+        <li>Suivez les instructions de la vidéo pour créer un compte.</li>
+        <li>Choisissez une date et une heure pour votre rendez-vous.</li>
+        <li>Préparez soigneusement les documents demandés.</li>
+      </ol>
+    </section>
 
-        <!-- Ajout des informations -->
-        <section class="info">
-            <section class="info">
-                <section class="info">
-                    <h3>Coût du Rendez-vous Capago</h3>
-                    <p>Le coût du rendez-vous Capago est d'environ 300 000 GNF et est payer via carte VISA ou Mastercard. 
-                        Veuillez noter que ce prix concerne uniquement le rendez-vous lui-même. 
-                        Le jour du rendez-vous, des frais supplémentaires pour le dossier de visa et les photos pourraient s'appliquer, 
-                        et ils peuvent aller jusqu'à un montant total d'environ 2 000 000 GNF.</p>
-                </section>
-                <p style="color: red;">Assurez-vous de vérifier la liste des documents requis avant votre rendez-vous.</p>
-            </section>
-            
-        </section>
-    </main>
-    <footer>
-        <footer>
-            <p>&copy; Algassimou Pellel Diallo 2024. Tous droits réservés.</p>
-        </footer>
-    </footer>
+    <p class="capago-video-link">
+      📺 <a href="https://www.youtube.com/watch?v=HTHH7az_3X4" target="_blank">Regarder la vidéo d'aide sur YouTube</a>
+    </p>
+
+    <div class="capago-video">
+      <iframe src="https://www.youtube.com/embed/HTHH7az_3X4?si=-pkaXMDhrNJK2y8B" 
+              title="Tutoriel Capago"
+              frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </div>
+
+    <section class="capago-cost">
+      <h3>💸 Coût du Rendez-vous Capago</h3>
+      <p>
+        Le coût du rendez-vous est d’environ <strong>300 000 GNF</strong>, à régler par carte VISA ou Mastercard.<br>
+        Des frais supplémentaires peuvent s'ajouter le jour du dépôt (photos, traitement...) pour un total allant jusqu’à <strong>2 000 000 GNF</strong>.
+      </p>
+      <p class="capago-cost-warning">
+        📌 N'oubliez pas : <strong>les documents sont indispensables</strong> pour éviter un refus ou une perte de temps.
+      </p>
+    </section>
+  </main>
+
+  <footer class="capago-footer">
+    <p>&copy; Algassimou Pellel Diallo 2024 — Gaston667. Tous droits réservés.</p>
+  </footer>
+  <script src="../js/script.js" defer></script>
+
 </body>
 </html>

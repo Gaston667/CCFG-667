@@ -126,3 +126,56 @@ function updateProgressBar(step) {
 
 // Initialisation au chargement
 document.addEventListener("DOMContentLoaded", () => updateProgressBar(1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const steps = [
+    "RDV Capago",
+    "Compte Campus France",
+    "Compte France Visas",
+    "Réception Attestation Campus France",
+    "Assurance Voyage",
+    "Attestation Bancaire",
+    "Dépôt Dossier à Capago",
+    "Résultat du Visa",
+    "Voyage 🎉"
+  ];
+
+  const currentStepIndex = 1; // On CHANGE ICI pour indiquer l’étape actuelle (0 = première étape)
+  const container = document.getElementById("timeline");
+
+  steps.forEach((step, index) => {
+    const div = document.createElement("div");
+    div.className = "timeline-step";
+
+    if (index < currentStepIndex) {
+      div.classList.add("past");
+    } else if (index === currentStepIndex) {
+      div.classList.add("current");
+    } else {
+      div.classList.add("future");
+    }
+
+    div.textContent = step;
+    container.appendChild(div);
+  });
+
+//   scroll auto vers l'étape actuelle
+    setTimeout(() => {
+    const current = document.querySelector(".timeline-step.current");
+    current?.scrollIntoView({ behavior: "smooth", inline: "center" });
+    }, 100);
+
+});
