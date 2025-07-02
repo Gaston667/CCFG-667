@@ -39,10 +39,4 @@
     </section>
   </main>
 
-  <footer class="capago-footer">
-    <p>&copy; Algassimou Pellel Diallo 2024 — Gaston667. Tous droits réservés.</p>
-  </footer>
-  <script src="<?= JS_PATH ?>" defer></script>
-
-</body>
-</html>
+<?php require_once '../includes/footer.php'; ?>

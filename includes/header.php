@@ -1,6 +1,6 @@
 <?php
-// This file is included in the header of each page.
-require_once '../config.php';
+require_once './config.php';
+require_once './counter.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
