@@ -1,6 +1,10 @@
 <?php
 // Connexion à la base
-$pdo = new PDO('mysql:host=localhost;dbname=ccfg;charset=utf8', 'utilisateur', 'motdepasse');
+$host = "dwarves.iut-fbleau.fr";
+$user = "dialloa";
+$password ="CAMcode@2025#"; 
+$dbname = "dialloa"; 
+$pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $password);
 
 // --- 1. Met à jour le compteur total ---
 $pdo->exec("UPDATE visites_total SET total = total + 1 WHERE id = 1");
