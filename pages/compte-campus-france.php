@@ -13,7 +13,7 @@
       <img src="../img_bg/ccfg.png" alt="Campus France logo" class="campus-step-image">
     </section>
 
-    <a href="etepe2.html" class="campus-link-card">
+    <a href="<?= BASE_URL ?>/pages/etepe2.php" class="campus-link-card">
       <section class="campus-step-card">
         <div class="campus-step-text">
           <h2>Étape 2 : Remplir la partie « Je saisis mon dossier »</h2>
@@ -23,7 +23,7 @@
       </section>
     </a>
 
-    <a href="etape-3.html" class="campus-link-card">
+    <a href="<?= BASE_URL ?>/pages/etape-3.php" class="campus-link-card">
       <section class="campus-step-card">
         <div class="campus-step-text">
           <h2>Étape 3 : Remplir la partie « Je suis accepté »</h2>
