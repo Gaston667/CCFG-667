@@ -1,62 +1,24 @@
 <?php
-// Ce fichier gère le comptage du nombre total de visites du site
-// et le nombre d'utilisateurs actuellement en ligne
+// Connexion à la base
+$pdo = new PDO('mysql:host=localhost;dbname=ccfg;charset=utf8', 'utilisateur', 'motdepasse');
 
-// Nom du fichier qui stocke le nombre de visites
-$compteur_file = 'compteur.txt';
+// --- 1. Met à jour le compteur total ---
+$pdo->exec("UPDATE visites_total SET total = total + 1 WHERE id = 1");
 
-// Vérifie si le fichier existe déjà
-if (file_exists($compteur_file)) {
-    // Si oui, lit le nombre actuel de visites
-    $visites = (int)file_get_contents($compteur_file);
-} else {
-    // Sinon, initialise le compteur à 0
-    $visites = 0;
-}
+// --- 2. Met à jour la présence en ligne ---
+$ip = $_SERVER['REMOTE_ADDR'];
+$now = date('Y-m-d H:i:s');
 
-// Incrémente le compteur de visites à chaque chargement de page
-$visites++;
+// Ajout ou mise à jour
+$sql = "INSERT INTO visiteurs_online (ip, last_activity) VALUES (:ip, :now)
+        ON DUPLICATE KEY UPDATE last_activity = :now";
+$stmt = $pdo->prepare($sql);
+$stmt->execute(['ip' => $ip, 'now' => $now]);
 
-// Enregistre la nouvelle valeur dans le fichier
-file_put_contents($compteur_file, $visites);
+// Supprimer les visiteurs inactifs depuis plus de 5 minutes
+$pdo->exec("DELETE FROM visiteurs_online WHERE last_activity < (NOW() - INTERVAL 5 MINUTE)");
 
-
-
-
-
-// ----------- Gestion des utilisateurs en ligne -----------
-
-// Durée d'activité considérée pour un utilisateur "en ligne" (en secondes)
-$timeout = 300; // 5 minutes
-
-// Démarre la session si ce n'est pas déjà fait
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-$session_id = session_id();
-
-// Nom du fichier qui stocke les sessions actives
-$online_file = 'online.txt';
-$online_data = [];
-
-// Récupère les sessions actives existantes
-if (file_exists($online_file)) {
-    $online_data = json_decode(file_get_contents($online_file), true) ?? [];
-}
-
-// Met à jour l'heure de dernière activité de la session courante
-$online_data[$session_id] = time();
-
-// Supprime les sessions expirées (inactives depuis plus de $timeout secondes)
-foreach ($online_data as $id => $last_active) {
-    if (time() - $last_active > $timeout) {
-        unset($online_data[$id]);
-    }
-}
-
-// Sauvegarde la liste des sessions actives
-file_put_contents($online_file, json_encode($online_data));
-
-// Compte le nombre d'utilisateurs actuellement en ligne
-$utilisateurs_en_ligne = count($online_data);
+// --- 3. Récupérer les chiffres ---
+$total = $pdo->query("SELECT total FROM visites_total WHERE id = 1")->fetchColumn();
+$enLigne = $pdo->query("SELECT COUNT(*) FROM visiteurs_online")->fetchColumn();
 ?>
