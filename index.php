@@ -18,22 +18,22 @@ $title = "Accueil";
             <button class="home-toggle-theme-btn" onclick="toggleTheme()">🌙</button>
         </header>
 
-        <div class="home-visitor-stats">
+        <!-- <div class="home-visitor-stats">
             <div class="visitor-card">
                 <span class="visitor-icon">👁️</span>
                 <div class="visitor-text">
                 <span class="visitor-label">Visites totales</span>
-                <span class="visitor-count"><?= $total ?></span>
+                <span class="visitor-count"> //$total ?></span>
                 </div>
             </div>
             <div class="visitor-card">
                 <span class="visitor-icon">🟢</span>
                 <div class="visitor-text">
                 <span class="visitor-label">En ligne</span>
-                <span class="visitor-count"><?= $enLigne ?></span>
+                <span class="visitor-count"> //$enLigne ?></span>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <section class="home-timeline-section">
