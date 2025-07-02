@@ -36,17 +36,17 @@
             <img src="./img_bg/ccfg.png" alt="Campus France" class="home-step-icon">
             <h2 class="home-step-title">Campus France</h2>
             <p class="home-step-desc">Créer votre compte Campus France</p>
-            <a href="/CCFG-667/pages/compte-campus-france.html" class="btn-primary">Commencer</a>
+            <a href="<?= BASE_URL?>/pages/compte-campus-france.php" class="btn-primary">Commencer</a>
             </section>
 
             <section class="home-step-card">
             <img src="./img_bg/frvisa.png" alt="France Visa" class="home-step-icon">
             <h2 class="home-step-title">France Visa</h2>
             <p class="home-step-desc">Créer votre compte France Visas</p>
-            <a href="/CCFG-667/pages/dossier-france-visa.html" class="btn-primary">Commencer</a>
+            <a href="<?= BASE_URL?>/pages/dossier-france-visa.php" class="btn-primary">Commencer</a>
             </section>
         </main>
-    <script src="<?= JS_PATH ?>" defer></script>
+    <script src="./js/script.js" defer></script>
     </body>
 </html>
 

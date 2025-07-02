@@ -55,6 +55,6 @@
     <footer class="etape2-campus-france-footer">
         <p>&copy; Algassimou Pellel Diallo 2024. Tous droits réservés.</p>
     </footer>
-    <script src="../js/script.js"></script>
+    <script src="<?= JS_PATH ?>"></script>
 </body>
 </html>

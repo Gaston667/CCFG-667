@@ -22,5 +22,5 @@
                 
             </ul>
     </main>
-    <script src="../js/script.js" defer></script>
+    <script src="<?= JS_PATH ?>" defer></script>
 </body>
