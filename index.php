@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Bienvenue – CCFG</title>
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="<?= CSS_PATH ?>" />
     </head>
 
     <body class="theme-light home-page">
@@ -45,7 +45,7 @@
             <a href="/CCFG-667/pages/dossier-france-visa.html" class="btn-primary">Commencer</a>
             </section>
         </main>
-    <script src="./js/script.js"></script>
+    <script src="<?= JS_PATH ?>" defer></script>
     </body>
 </html>
 

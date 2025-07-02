@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rendez-vous Capago Guinée</title>
-  <link rel="stylesheet" href="../css/styles.css" />
-</head>
-<body class="theme-light capago-page">
-
-  <header class="campus-header">
-    <div class="campus-header-container">
-      <h1 class="campus-title">Le Guide Ultime Pour Fuir Le Paradis</h1>
-      <nav class="campus-nav">
-        <ul class="campus-nav-links">
-          <li><a href="/CCFG-667/ancien-acceuil.html">Accueil</a></li>
-          <li><a href="/CCFG-667/pages/rendez-vous-capago.html">RDV-CAPAGO</a></li>
-          <li><a href="/CCFG-667/pages/compte-campus-france.html">Campus-France</a></li>
-          <li><a href="/CCFG-667/pages/dossier-france-visa.html">France Visa</a></li>
-            <li><button onclick="toggleTheme()">Mode nuit 🌙</button></li>
-        </ul>
-        <div class="campus-burger" onclick="toggleMenu()">
-          <span></span><span></span><span></span>
-        </div>
-      </nav>
-    </div>
-  </header>
+<?php require_once '../includes/header.php'; ?>
 
   <main class="capago-container">
     <h2 class="capago-subtitle">Étapes pour Prendre un Rendez-vous Capago</h2>
