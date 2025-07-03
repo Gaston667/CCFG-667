@@ -1009,6 +1009,16 @@ footer.etape2-campus-france-footer:hover {
   border-radius: 8px;
 }
 
+.france-visa-step img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem auto;
+  object-fit: contain;
+}
+
+
 /* === LISTE === */
 .france-visa-doc-list {
   margin: 1rem 0;
