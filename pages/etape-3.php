@@ -1,4 +1,5 @@
 <?php
+$entete = "Campus France !";
 $title = "Étape 3 - Je suis accepté";
 require_once '../includes/header.php'; ?>
     <main class="etape3-container">

@@ -1,4 +1,5 @@
 <?php
+$entete = "Campus France !";
 $title = "Compte Campus France";
 require_once '../includes/header.php'; ?>
 

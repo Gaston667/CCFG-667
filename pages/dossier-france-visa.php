@@ -36,6 +36,7 @@ $title = "Dossier France-Visas";
 <p require_once './includes/footer.php'; -->
 
 <?php 
+$entete = "France-Visas !";
 $title = "Dossier France-Visas";
 require_once './includes/header.php'; 
 ?>

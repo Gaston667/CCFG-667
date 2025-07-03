@@ -1,4 +1,5 @@
 <?php
+$entete = "Capago !";
 $title = "Rendez-vous Capago";
 require_once '../includes/header.php'; ?>
 

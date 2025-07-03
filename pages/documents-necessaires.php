@@ -1,4 +1,5 @@
 <?php
+$entete = "Documents !";
 $title = "Documents Nécessaires";
 require_once '../includes/header.php'; ?>
 

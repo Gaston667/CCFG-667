@@ -1,4 +1,5 @@
 <?php
+$entete = "Campus France !";
 $title = "Étape 2 - Je saisis mon dossier";
 require_once '../includes/header.php'; ?>
 

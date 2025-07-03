@@ -1,4 +1,7 @@
-<?php require_once 'includes/header.php'; ?>
+<?php 
+$entete = "Information ";
+$title = "Information";
+require_once 'includes/header.php'; ?>
 <div 
     class="france-visa-banner" 
     style="
