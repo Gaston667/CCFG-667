@@ -1078,7 +1078,8 @@ footer.etape2-campus-france-footer:hover {
 }
 
 .france-visa-progress-text {
-  text-align: right;
+  text-align: left;
+  display: inline-block;
   font-size: 0.9rem;
   font-weight: bold;
   margin-top: 0.5rem;
