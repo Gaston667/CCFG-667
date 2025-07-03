@@ -13,7 +13,8 @@ require_once '../includes/header.php';
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ml_WBwwG_VQ?si=psYsqZCsR1QDwSV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
-    <p>Progression: <div class="france-visa-progress-text" id="visaProgressText"></div></p>
+    <p class="france-visa-progress-title">Progression:</p>
+    <div class="france-visa-progress-text" id="visaProgressText"></div>
     <div class="france-visa-progress-container">
     <div class="france-visa-progress-bar" id="visaProgressBar"></div>
     </div>
