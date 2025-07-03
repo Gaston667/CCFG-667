@@ -28,7 +28,11 @@ require_once '../includes/header.php';
         <a href="https://france-visas.gouv.fr/" target="_blank" class="btn-primary">Accéder à France-Visas</a>
         <div class="france-visa-step-img">
             <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
-            <img src="path/to/capture-step1.png" alt="Capture d’écran de la page de création de compte France-Visas">
+            <img src="../img/France-visa1.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
         </div>
     </section>
 
