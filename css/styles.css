@@ -1012,7 +1012,7 @@ footer.etape2-campus-france-footer:hover {
 .france-visa-step img {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 300px;
   border-radius: 8px;
   margin: 1rem auto;
   object-fit: contain;
