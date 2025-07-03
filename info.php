@@ -13,7 +13,7 @@
         font-size: 1.25rem;
         letter-spacing: 1px;
         max-width: 600px;
-        position: relative;
+        /* position: relative; */
         overflow: hidden;
         animation: bannerPop 0.7s cubic-bezier(.68,-0.55,.27,1.55);
     ">
