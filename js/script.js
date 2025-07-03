@@ -140,6 +140,12 @@ document.addEventListener("DOMContentLoaded", () => updateProgressBar(1));
 
 
 
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const steps = [
     "RDV Capago",
@@ -178,4 +184,63 @@ document.addEventListener("DOMContentLoaded", () => {
     current?.scrollIntoView({ behavior: "smooth", inline: "center" });
     }, 100);
 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let currentVisaStep = 0;
+const totalVisaSteps = document.querySelectorAll(".france-visa-step").length;
+
+function updateVisaStepDisplay() {
+  document.querySelectorAll(".france-visa-step").forEach((step, index) => {
+    step.classList.toggle("active", index === currentVisaStep);
+  });
+
+  // Progression
+  const progressBar = document.getElementById("visaProgressBar");
+  const progressText = document.getElementById("visaProgressText");
+
+  if (progressBar && progressText) {
+    const percent = ((currentVisaStep + 1) / totalVisaSteps) * 100;
+    progressBar.style.width = `${percent}%`;
+    progressText.textContent = `Étape ${currentVisaStep + 1} sur ${totalVisaSteps}`;
+  }
+}
+
+function nextVisaStep() {
+  if (currentVisaStep < totalVisaSteps - 1) {
+    currentVisaStep++;
+    updateVisaStepDisplay();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+}
+
+function prevVisaStep() {
+  if (currentVisaStep > 0) {
+    currentVisaStep--;
+    updateVisaStepDisplay();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+}
+
+// Boutons
+document.addEventListener("DOMContentLoaded", () => {
+  updateVisaStepDisplay();
+
+  const nextBtn = document.querySelector(".btn-secondary:nth-of-type(2)");
+  const prevBtn = document.querySelector(".btn-secondary:nth-of-type(1)");
+
+  if (nextBtn) nextBtn.addEventListener("click", nextVisaStep);
+  if (prevBtn) prevBtn.addEventListener("click", prevVisaStep);
 });
