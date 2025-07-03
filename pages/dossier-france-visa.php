@@ -5,12 +5,26 @@ require_once '../includes/header.php';
 <main class="france-visa-container">
     <h1 class="france-visa-title">Dossier France-Visas</h1>
     <p class="france-visa-desc">Créez votre compte France-Visas pour commencer votre demande de visa.</p>
-    
+    <a href="<?= BASE_URL ?>/pages/documents-necessaires.php" class="etape2-warning-link">
+      ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong><br>
+      Avant de commencer, assurez-vous d’avoir tous les documents nécessaires pour campus france. Cliquez ici pour voir la liste 📄
+    </a>
+    <div class="etape2-campus-france-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ml_WBwwG_VQ?si=psYsqZCsR1QDwSV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <p>Progression:</p>
+    <div class="france-visa-progress-container">
+    <div class="france-visa-progress-bar" id="visaProgressBar"></div>
+    </div>
+    <div class="france-visa-progress-text" id="visaProgressText"></div>
+
     <section class="france-visa-step">
         <h2 class="france-visa-step-title">Étape 1 : Créer un compte</h2>
         <p class="france-visa-step-desc">
             Rendez-vous sur le site officiel de France-Visas et créez votre compte personnel. Suivez les instructions pour fournir votre adresse e-mail et définir un mot de passe. Un e-mail de confirmation vous sera envoyé : cliquez sur le lien reçu pour activer votre compte. Une fois votre compte activé, vous pourrez vous connecter et débuter la procédure en ligne.
         </p>
+        <p>Lien vers le site : <a href="https://france-visas.gouv.fr/" target="_blank">France-Visas</a></p>
         <a href="https://france-visas.gouv.fr/" target="_blank" class="btn-primary">Accéder à France-Visas</a>
         <div class="france-visa-step-img">
             <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
