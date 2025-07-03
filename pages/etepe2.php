@@ -81,6 +81,7 @@ require_once '../includes/header.php'; ?>
       <img src="../img/2.png">
       <img src="../img/3.png">
       <img src="../img/enregistrer.png">
+      <p> Quand vous enregistrer les informations, vous devez ajoutez le bulletin de la classe concernée. de preference un bulletin annuel <strong>PDF</strong></p>
       <img src="../img/bul.png">
       <p>Pour le bac, ajoutez le relevé de notes du bac.</p>
       <img src="../img/bacbul.png">
