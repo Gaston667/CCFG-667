@@ -31,6 +31,9 @@ require_once '../includes/header.php';
             <img src="../img/France-visa1.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
             <img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
             <img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+
+            <p>Normalement, vous devriez recevoir un e-mail de confirmation pour activer votre compte et vous connecter directement.</p>
+            
             <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
             <img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
         </div>
