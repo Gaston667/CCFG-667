@@ -61,7 +61,7 @@ require_once '../includes/header.php'; ?>
       <h3>Statut particulier</h3>
       <p>Mettez « Étudiant en classe de terminale inscrit dans un lycée français ».</p>
       <img src="../img/statut-particulier.png" alt="statut">
-      <p>Ajoutez : certificat de scolarité, attestation CNED...</p>
+      <p>Ajoutez : certificat de scolarité ou attestation CNED.</p>
       <img src="../img/justif-scolariter.png" alt="justificatifs">
     </div>
 

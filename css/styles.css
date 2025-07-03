@@ -938,3 +938,161 @@ footer.etape2-campus-france-footer:hover {
   background-color: var(--color-card);
   border-top: 1px solid var(--color-border);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === CONTENEUR PRINCIPAL === */
+.france-visa-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--color-text);
+}
+
+/* === TITRES === */
+.france-visa-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.france-visa-desc {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* === ETAPES === */
+.france-visa-step {
+  display: none;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.4s ease-in;
+}
+
+.france-visa-step.active {
+  display: block;
+}
+
+.france-visa-step-title {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.france-visa-step-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.france-visa-step-img img {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* === LISTE === */
+.france-visa-doc-list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+/* === BOUTONS === */
+.france-visa-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.7rem 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* === PROGRESSION === */
+.france-visa-progress-container {
+  background-color: var(--color-border);
+  height: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 2rem 0 1rem;
+}
+
+.france-visa-progress-bar {
+  height: 100%;
+  background-color: var(--color-primary);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.france-visa-progress-text {
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: var(--color-text);
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* === RESPONSIVE === */
+@media screen and (max-width: 600px) {
+  .france-visa-navigation {
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}
