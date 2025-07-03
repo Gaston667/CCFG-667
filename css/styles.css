@@ -1072,9 +1072,10 @@ footer.etape2-campus-france-footer:hover {
 
 .france-visa-progress-bar {
   height: 100%;
-  background-color: var(--color-primary);
+  background-color: var(--color-text);
   width: 0%;
   transition: width 0.3s ease;
+  font-weight: bold;
 }
 
 .france-visa-progress-text {
