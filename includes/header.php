@@ -13,9 +13,8 @@ require_once __DIR__ . '/counter.php';
 <body>
     <header class="campus-header">
     <div class="campus-header-container">
-      <h1 class="campus-title">Campus Fr</h1>
       <?php if (isset($entete)): ?>
-        <div class="campus-entete"><?= htmlspecialchars($entete) ?></div>
+        <h1 class="campus-title"><?= htmlspecialchars($entete)?></h1>
       <?php endif; ?>
       <nav class="campus-nav">
         <ul class="campus-nav-links">
