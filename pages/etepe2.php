@@ -73,7 +73,8 @@ require_once '../includes/header.php'; ?>
 
     <div class="etape2-step" id="etape2-step-5">
       <h3>Mon cursus</h3>
-      <p>Ajoutez vos bulletins de seconde, première, terminale et bac.</p>
+      <p>Ajoutez vos bulletins de seconde, première, terminale.</p>
+      <p>Vous devez repeter ce processus pour chaque niveau du lycée. Donc 3 fois</p>
       <img src="../img/cursus-1.png">
       <img src="../img/ajout.png">
       <img src="../img/1.png">
@@ -81,10 +82,12 @@ require_once '../includes/header.php'; ?>
       <img src="../img/3.png">
       <img src="../img/enregistrer.png">
       <img src="../img/bul.png">
+      <p>Pour le bac, ajoutez le relevé de notes du bac.</p>
       <img src="../img/bacbul.png">
       <img src="../img/bacbul-2.png">
       <img src="../img/bacbul-3.png">
       <img src="../img/cursus.png">
+      <p>À la fin, vous devez avoir 3 niveaux de lycée renseignés. + 1 niveau de bac. Donc 4 niveaux au total.</p>
     </div>
 
     <div class="etape2-step" id="etape2-step-6">
