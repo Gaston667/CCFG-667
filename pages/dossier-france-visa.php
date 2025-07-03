@@ -71,4 +71,4 @@ require_once '../includes/header.php';
     </footer>
 </main>
 
-<?php require_once './includes/footer.php'; ?>
+<?php require_once '../includes/footer.php'; ?>
