@@ -230,6 +230,25 @@ require_once '../includes/header.php';
         </p>
     </section>
 
+    <section class="france-visa-step">
+        <h2 class="france-visa-step-title">🎉 Fin du guide : Derniers conseils</h2>
+        <p class="france-visa-step-desc">
+            Vous avez maintenant toutes les informations pour compléter votre demande de visa étudiant France. Relisez bien chaque étape et assurez-vous d’avoir  mis les informations et tous les documents nécessaires.
+        </p>
+
+        <img src="../img/France-VisaFini.png" alt="">
+
+        <ul class="france-visa-doc-list">
+            <li>Vérifiez que vos documents sont bien numérisés, lisibles et conformes aux exigences.</li>
+            <li>Gardez une copie numérique et papier de chaque document.</li>
+            <li>Préparez-vous à répondre à d’éventuelles questions lors de votre rendez-vous.</li>
+        </ul>
+        <p class="france-visa-step-desc" style="font-weight:bold;">
+            Bonne chance dans vos démarches et bienvenue en France ! haha
+        </p>
+    </section>
+...
+
     <a href="<?= BASE_URL ?>/pages/Document_visa_jj.php" class="etape2-warning-link">
       ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong>
     </a>
