@@ -1,4 +1,3 @@
-
 // NEW
 function toggleTheme() {
   document.body.classList.toggle('theme-dark');
@@ -215,6 +214,12 @@ function updateVisaStepDisplay() {
     const percent = ((currentVisaStep + 1) / totalVisaSteps) * 100;
     progressBar.style.width = `${percent}%`;
     progressText.textContent = `Étape ${currentVisaStep + 1} sur ${totalVisaSteps}`;
+  }
+
+  // Scroll automatique vers la section des étapes
+  const stepsSection = document.getElementById("franceVisaSteps");
+  if (stepsSection) {
+    stepsSection.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
 

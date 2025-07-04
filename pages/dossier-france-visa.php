@@ -14,7 +14,7 @@ require_once '../includes/header.php';
     </div>
 
     <p class="france-visa-progress-title">Progression:</p>
-    <div class="france-visa-progress-text" id="visaProgressText"></div>
+    <div class="france-visa-progress-text" id="visaProgressText" id="franceVisaSteps"></div>
     <div class="france-visa-progress-container">
     <div class="france-visa-progress-bar" id="visaProgressBar"></div>
     </div>
