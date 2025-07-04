@@ -228,7 +228,7 @@ require_once '../includes/header.php';
         </p>
     </section>
 
-    <a href="<?= BASE_URL ?>/pages/documents" class="etape2-warning-link">
+    <a href="<?= BASE_URL ?>/pages/Document_visa_jj.php" class="etape2-warning-link">
       ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong>
     </a>
 
