@@ -46,13 +46,13 @@ require_once '../includes/header.php';
         Après avoir créé votre compte, accédez à votre tableau de bord. Cliquez sur le bouton <strong>“Créer une nouvelle demande dans un nouveau groupe”</strong> pour démarrer une nouvelle demande individuelle.
         </p>
 
-        <img src="/CCFG-667/img/france-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
+        <img src="../img/france-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Vous serez ensuite redirigé vers un formulaire en plusieurs sections. Dans la première, <strong>“Votre situation”</strong>, sélectionnez votre nationalité et précisez si vous voyagez avec un membre de famille ressortissant de l’UE ou non.
         </p>
 
-        <img src="/CCFG-667/img/france-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
+        <img src="../img/france-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Ensuite, dans <strong>“Votre séjour”</strong>, indiquez :
@@ -71,11 +71,7 @@ require_once '../includes/header.php';
         Enfin, dans <strong>“Votre projet”</strong>, indiquez les raisons de votre séjour (études, stage, visite...) ainsi que le motif principal du séjour.
         </p>
 
-        <img src="/CCFG-667/img/france-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
-
-        <p class="france-visa-step-desc">
-        À la fin du formulaire, un <strong>PDF Cerfa</strong> ainsi qu’un <strong>récépissé</strong> listant les pièces justificatives seront générés automatiquement. Vous devrez les télécharger et les imprimer pour la suite du processus.
-        </p>
+        <img src="../img/france-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
     </section>
 
     <section class="france-visa-step">
@@ -107,6 +103,9 @@ require_once '../includes/header.php';
             <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
             <img src="path/to/capture-step4.png" alt="Capture d’écran du suivi de demande sur France-Visas">
         </div>
+        <p class="france-visa-step-desc">
+        À la fin du formulaire, un <strong>PDF Cerfa</strong> ainsi qu’un <strong>récépissé</strong> listant les pièces justificatives seront générés automatiquement. Vous devrez les télécharger et les imprimer pour la suite du processus.
+        </p>
     </section>
 
     <!-- Navigation entre les étapes du guide -->
