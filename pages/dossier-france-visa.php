@@ -52,7 +52,7 @@ require_once '../includes/header.php';
         Vous serez ensuite redirigé vers un formulaire en plusieurs sections. Dans la première, <strong>“Votre situation”</strong>, sélectionnez votre nationalité et précisez si vous voyagez avec un membre de famille ressortissant de l’UE ou non.
         </p>
 
-        <img src="../img/france-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
+        <img src="../img/France-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Ensuite, dans <strong>“Votre séjour”</strong>, indiquez :
@@ -71,7 +71,7 @@ require_once '../includes/header.php';
         Enfin, dans <strong>“Votre projet”</strong>, indiquez les raisons de votre séjour (études, stage, visite...) ainsi que le motif principal du séjour.
         </p>
 
-        <img src="../img/france-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
+        <img src="../img/France-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
     </section>
 
     <section class="france-visa-step">
