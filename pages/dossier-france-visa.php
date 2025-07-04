@@ -46,7 +46,7 @@ require_once '../includes/header.php';
         Après avoir créé votre compte, accédez à votre tableau de bord. Cliquez sur le bouton <strong>“Créer une nouvelle demande dans un nouveau groupe”</strong> pour démarrer une nouvelle demande individuelle.
         </p>
 
-        <img src="../img/france-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
+        <img src="../img/France-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Vous serez ensuite redirigé vers un formulaire en plusieurs sections. Dans la première, <strong>“Votre situation”</strong>, sélectionnez votre nationalité et précisez si vous voyagez avec un membre de famille ressortissant de l’UE ou non.
