@@ -200,14 +200,15 @@ require_once '../includes/header.php';
             <li><strong>Photographie d'identité :</strong> inutile d'apporter une photo, elle sera prise directement chez Capago le jour du rendez-vous.</li>
             
             <li>Votre passeport complet, avec toutes les pages comportant des visas, cachets d’entrée/sortie ou toute autre inscription.</li>
-        </ul>
-        <img src="../img/France-VisasE7.1.png" alt=""><br>
+        </ul><br>
+        <img src="../img/France-VisaE7.1.png" alt=""><br>
+        
         <h4>Objet du voyage/séjour</h4>
         <ul>
             <li>Attestation de pré-inscription générée par l’application EEF-Pastel, mentionnant le n° d’identifiant EEF.</li>
             <li>Pour les pays hors procédure EEF : dernier diplôme obtenu.</li>
         </ul>
-        <img src="../img/France-VisasE7.2.png" alt=""><br>
+        <img src="../img/France-VisaE7.2.png" alt=""><br>
 
         <h4>Ressources</h4>
         <ul>
@@ -224,7 +225,7 @@ require_once '../includes/header.php';
             <li>Justificatif d'hébergement : réservation d'hôtel, contrat de bail, attestation/engagement sur l'honneur de l'hébergeant (établissement/institution ou particulier) ou lettre explicative sur la manière dont vous envisagez de vous loger.</li>
 
         </ul>
-        <img src="../img/France-VisasE7.3.png" alt="">
+        <img src="../img/France-VisaE7.3.png" alt="">
         <p class="france-visa-step-desc" style="font-style:italic;">
             Conseil : Préparez et numérisez tous vos documents à l’avance pour éviter tout retard ou refus lors du rendez-vous.
         </p>
