@@ -202,7 +202,7 @@ require_once '../includes/header.php';
             <li>Votre passeport complet, avec toutes les pages comportant des visas, cachets d’entrée/sortie ou toute autre inscription.</li>
         </ul><br>
 
-        <img src="../img/France-VisaE7.1.png" alt="" class="france-visa-img"><br>
+        <img src="../img/France-VisaE3.1.png" alt="" class="france-visa-img"><br>
         
         <h4>Objet du voyage/séjour</h4>
         <ul>
