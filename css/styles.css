@@ -1122,3 +1122,65 @@ footer.etape2-campus-france-footer:hover {
     width: 100%;
   }*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.france-visa-intro {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.france-visa-section {
+  margin-top: 2rem;
+  background-color: var(--color-card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+.france-visa-pdf {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.france-visa-doc-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+.france-visa-doc-list li {
+  margin-bottom: 0.7rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.france-visa-doc-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+}
+
+.france-visa-doc-list .doc-important {
+  color: #c0392b;
+}
