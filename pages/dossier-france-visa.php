@@ -75,23 +75,25 @@ require_once '../includes/header.php';
     </section>
 
     <section class="france-visa-step">
-        <h2 class="france-visa-step-title">Étape 3 : Soumettre les documents</h2>
+        <h2 class="france-visa-step-title">Étape 3 : Vos informations</h2>
         <p class="france-visa-step-desc">
-            Préparez tous les documents requis pour votre demande de visa. La liste des justificatifs à fournir (indiquée sur votre récépissé France-Visas) inclut généralement :
+            Après avoir rempli les sections précédentes, vous serez redirigé vers la section <strong>“Vos informations”</strong>. Ici, vous devrez fournir des informations personnelles telles que votre nom, prénom, date de naissance, adresse, numéro de téléphone
         </p>
-        <ul class="france-visa-doc-list">
-            <li>Votre passeport (original et photocopie).</li>
-            <li>Le formulaire de demande imprimé et signé (formulaire Cerfa) ainsi que le récépissé France-Visas.</li>
-            <li>Des photos d’identité conformes aux normes (par ex. format OACI).</li>
-            <li>Les justificatifs correspondant à votre motif de séjour (lettre d’acceptation universitaire, réservation de vol, assurance, justificatifs de ressources, etc.).</li>
-        </ul>
+        <img src="../img/France-visaE3.1.png" alt="Section Vos informations" class="france-visa-img" />
+
         <p class="france-visa-step-desc">
-            Une fois votre dossier complet, prenez rendez-vous auprès du centre de visas (VFS Global ou consulat de France) de votre pays afin de déposer votre demande. Le jour du rendez-vous, présentez-vous avec votre dossier complet. Vos données biométriques (empreintes digitales et photo) seront collectées lors du dépôt, et vous devrez vous acquitter des frais de visa à ce moment-là. 
+            Ensuite, dans la section <strong>“Vos coordonnées”</strong>, indiquez votre adresse e-mail et votre numéro de téléphone. Assurez-vous que ces informations sont correctes, car elles seront utilisées pour vous contacter concernant votre demande de visa.
         </p>
-        <div class="france-visa-step-img">
-            <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
-            <img src="path/to/capture-step3.png" alt="Capture d’écran de la soumission des documents au centre de visas">
-        </div>
+        <img src="../img/France-visaE3.2.png" alt="Section Vos coordonnées" class="france-visa-img" />
+
+        <p class="france-visa-step-desc">
+           votre famille, indiquer vous rejoignez-vous un membre de votre famille qui vit en France ? Si oui, fournissez les informations demandées (nom, prénom, adresse, lien de parenté).
+        </p>
+
+        <p class="france-visa-step-desc">
+            Votre activité professionnelle : indiquez votre situation actuelle (étudiant) le secteur c'est enseignement et fournissez les détails nécessaires (nom de l’établissement, adresse, numéro de téléphone).
+        </p>
+        <img src="../img/France-visaE3.3.png" alt="Section Votre activité professionnelle" class="france-visa-img" />
     </section>
 
     <section class="france-visa-step">

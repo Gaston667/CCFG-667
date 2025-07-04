@@ -21,8 +21,7 @@ require_once __DIR__ . '/counter.php';
           <li><a href="<?= BASE_URL ?>/index.php">Accueil</a></li>
           <li><a href="<?= BASE_URL ?>/pages/rendez-vous-capago.php">RDV-CAPAGO</a></li>
           <li><a href="<?= BASE_URL ?>/pages/compte-campus-france.php">Campus-France</a></li>
-          <!-- <li><a href="< BASE_URL ?>/pages/dossier-france-visa.php">France visa</a></li> -->
-          <li><a href="<?= BASE_URL ?>/info.php">France Visa</a></li>
+          <li><a href="<?= BASE_URL ?>/pages/dossier-france-visa.php">France visa</a></li>
           <li><button onclick="toggleTheme()">Mode nuit 🌙</button></li>
         </ul>
         <div class="campus-burger" onclick="toggleMenu()">
