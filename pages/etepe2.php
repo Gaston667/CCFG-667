@@ -87,7 +87,7 @@ require_once '../includes/header.php'; ?>
       <img src="../img/bacbul.png">
       <img src="../img/bacbul-2.png">
       <img src="../img/bacbul-3.png">
-      <img src="../img/cursus.png">
+      <img src="../img/RECTIFICATION.jpg">
       <p>À la fin, vous devez avoir 3 niveaux de lycée renseignés. + 1 niveau de bac. Donc 4 niveaux au total.</p>
     </div>
 

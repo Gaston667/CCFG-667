@@ -11,6 +11,8 @@ require_once '../includes/header.php'; ?>
 
     <div class="etape3-card active" id="etape3-step-1">
         <h2>1.1 - Je choisis mes projets d'études</h2>
+        <p>Cliquez sur le bleu puis sur le vert pour acceder à la partie <strong>projets d'études</strong>.</p>
+        <img src="../img/Finalise.png" alt=""><br>
         <p>Vous pouvez ajouter plusieurs projets d'études...</p>
         <img src="../img/C-1.png" alt="Choix de projet">
         <ul>
@@ -43,7 +45,9 @@ require_once '../includes/header.php'; ?>
     </div>
 
     <div class="etape3-card" id="etape3-step-3">
-        <h2>1.3 - Je vérifie et je confirme</h2>
+        <h2>1.3 - Je vérifie et je confirme</h2><br>
+        <p>Cliquez sur la partie indiquée sur l'image.</p>
+        <img src="../img/E3-1.3.png" alt=""><br>
         <p>Vérifiez que tout est complet et confirmez.</p>
         <img src="../img/E3-1.3.png" alt="">
         <p style="color: red; font-weight: bold;">⚠️ Si ce n’est pas complet, retournez à l’étape précédente.</p>
