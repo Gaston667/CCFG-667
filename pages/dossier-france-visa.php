@@ -32,14 +32,14 @@ require_once '../includes/header.php';
         <div class="france-visa-step-img">
             <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
             <img src="../img/France-visa1.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
 
             <br>
             <br>
             <p>Normalement, vous devriez recevoir un e-mail de confirmation pour activer votre compte et vous connecter directement.</p>
             <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
         </div>
     </section>
 
@@ -202,14 +202,14 @@ require_once '../includes/header.php';
             <li>Votre passeport complet, avec toutes les pages comportant des visas, cachets d’entrée/sortie ou toute autre inscription.</li>
         </ul><br>
 
-        <img src="../img/France-VisaE3.1.png" alt="" class="france-visa-img"><br>
-        
+        <img src="<?= BASE_URL ?>/img/France-VisaE7.1.png" alt="" class="france-visa-img"><br>
+
         <h4>Objet du voyage/séjour</h4>
         <ul>
             <li>Attestation de pré-inscription générée par l’application EEF-Pastel, mentionnant le n° d’identifiant EEF.</li>
             <li>Pour les pays hors procédure EEF : dernier diplôme obtenu.</li>
         </ul>
-        <img src="../img/France-VisaE7.2.png" alt="" class="france-visa-img"><br>
+        <img src="<?= BASE_URL ?>/img/France-VisaE7.2.png" alt="" class="france-visa-img"><br>
 
         <h4>Ressources</h4>
         <ul>
@@ -226,7 +226,7 @@ require_once '../includes/header.php';
             <li>Justificatif d'hébergement : réservation d'hôtel, contrat de bail, attestation/engagement sur l'honneur de l'hébergeant (établissement/institution ou particulier) ou lettre explicative sur la manière dont vous envisagez de vous loger.</li>
 
         </ul>
-        <img src="../img/France-visaE7.3.png" alt="" class="france-visa-img">
+        <img src="<?= BASE_URL ?>/img/France-VisaE7.3.png" alt="" class="france-visa-img">
         <p class="france-visa-step-desc" style="font-style:italic;">
             Conseil : Préparez et numérisez tous vos documents à l’avance pour éviter tout retard ou refus lors du rendez-vous.
         </p>
@@ -238,7 +238,7 @@ require_once '../includes/header.php';
             Vous avez maintenant toutes les informations pour compléter votre demande de visa étudiant France. Relisez bien chaque étape et assurez-vous d’avoir  mis les informations et tous les documents nécessaires.
         </p>
 
-        <img src="<?= BASE_URL ?>/img/France-visaFini.png" alt="" class="france-visa-img">
+        <img src="<?= BASE_URL ?>/img/France-VisaFini.png" alt="" class="france-visa-img">
 
         <ul class="france-visa-doc-list">
             <li>Vérifiez que vos documents sont bien numérisés, lisibles et conformes aux exigences.</li>
@@ -249,6 +249,7 @@ require_once '../includes/header.php';
             Bonne chance dans vos démarches et bienvenue en France ! haha
         </p>
     </section>
+...
 
     <a href="<?= BASE_URL ?>/pages/Document_visa_jj.php" class="etape2-warning-link">
       ⚠️ <strong>Il est important de consulter la liste des documents à préparer</strong>
