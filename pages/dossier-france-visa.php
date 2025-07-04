@@ -201,14 +201,15 @@ require_once '../includes/header.php';
             
             <li>Votre passeport complet, avec toutes les pages comportant des visas, cachets d’entrée/sortie ou toute autre inscription.</li>
         </ul><br>
-        <img src="../img/France-VisaE7.1.png" alt=""><br>
+
+        <img src="../img/France-VisaE7.1.png" alt="" class="france-visa-img"><br>
         
         <h4>Objet du voyage/séjour</h4>
         <ul>
             <li>Attestation de pré-inscription générée par l’application EEF-Pastel, mentionnant le n° d’identifiant EEF.</li>
             <li>Pour les pays hors procédure EEF : dernier diplôme obtenu.</li>
         </ul>
-        <img src="../img/France-VisaE7.2.png" alt=""><br>
+        <img src="../img/France-VisaE7.2.png" alt="" class="france-visa-img"><br>
 
         <h4>Ressources</h4>
         <ul>
@@ -225,7 +226,7 @@ require_once '../includes/header.php';
             <li>Justificatif d'hébergement : réservation d'hôtel, contrat de bail, attestation/engagement sur l'honneur de l'hébergeant (établissement/institution ou particulier) ou lettre explicative sur la manière dont vous envisagez de vous loger.</li>
 
         </ul>
-        <img src="../img/France-VisaE7.3.png" alt="">
+        <img src="../img/France-VisaE7.3.png" alt="" class="france-visa-img">
         <p class="france-visa-step-desc" style="font-style:italic;">
             Conseil : Préparez et numérisez tous vos documents à l’avance pour éviter tout retard ou refus lors du rendez-vous.
         </p>
@@ -237,7 +238,7 @@ require_once '../includes/header.php';
             Vous avez maintenant toutes les informations pour compléter votre demande de visa étudiant France. Relisez bien chaque étape et assurez-vous d’avoir  mis les informations et tous les documents nécessaires.
         </p>
 
-        <img src="../img/France-VisaFini.png" alt="">
+        <img src="../img/France-VisaFini.png" alt="" class="france-visa-img">
 
         <ul class="france-visa-doc-list">
             <li>Vérifiez que vos documents sont bien numérisés, lisibles et conformes aux exigences.</li>
