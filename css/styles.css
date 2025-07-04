@@ -1003,10 +1003,19 @@ footer.etape2-campus-france-footer:hover {
   line-height: 1.6;
 }
 
-.france-visa-step-img img {
+/* .france-visa-step-img img {
   width: 100%;
   margin-top: 1rem;
   border-radius: 8px;
+} */
+
+.france-visa-img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
 .france-visa-step img {
@@ -1108,8 +1117,8 @@ footer.etape2-campus-france-footer:hover {
     flex-direction: column;
   }
 
-  .btn-primary,
+  /* .btn-primary,
   .btn-secondary {
     width: 100%;
-  }
+  }*/
 }

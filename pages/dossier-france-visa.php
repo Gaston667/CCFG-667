@@ -32,26 +32,50 @@ require_once '../includes/header.php';
             <img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
             <img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
 
+            <br>
+            <br>
             <p>Normalement, vous devriez recevoir un e-mail de confirmation pour activer votre compte et vous connecter directement.</p>
-            
             <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
             <img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
         </div>
     </section>
 
     <section class="france-visa-step">
-        <h2 class="france-visa-step-title">Étape 2 : Remplir le formulaire</h2>
+        <h2 class="france-visa-step-title">Étape 2 : Votre projet</h2>
         <p class="france-visa-step-desc">
-            Une fois votre compte créé, accédez au formulaire de demande de visa en ligne. Remplissez soigneusement toutes les sections requises du formulaire (informations personnelles, détails du voyage, motif du séjour, etc.). Vous pouvez sauvegarder votre demande et y revenir plus tard si nécessaire. Après avoir complété et validé le formulaire, le site génère un fichier PDF de votre demande (formulaire Cerfa) ainsi qu’un récépissé listant les pièces justificatives requises – n’oubliez pas d’imprimer ces documents.
+        Après avoir créé votre compte, accédez à votre tableau de bord. Cliquez sur le bouton <strong>“Créer une nouvelle demande dans un nouveau groupe”</strong> pour démarrer une nouvelle demande individuelle.
         </p>
-        <div class="france-visa-step-img">
-            <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
-            <img src="../img/France-visa1.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-            <img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-            <img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-            <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-            <img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-        </div>
+
+        <img src="/CCFG-667/img/france-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
+
+        <p class="france-visa-step-desc">
+        Vous serez ensuite redirigé vers un formulaire en plusieurs sections. Dans la première, <strong>“Votre situation”</strong>, sélectionnez votre nationalité et précisez si vous voyagez avec un membre de famille ressortissant de l’UE ou non.
+        </p>
+
+        <img src="/CCFG-667/img/france-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
+
+        <p class="france-visa-step-desc">
+        Ensuite, dans <strong>“Votre séjour”</strong>, indiquez :
+        <ul>
+            <li>Le pays de résidence et de dépôt de la demande</li>
+            <li>Le type de visa demandé (court ou long séjour)</li>
+            <li>La destination principale et la ville de dépôt</li>
+        </ul>
+        </p>
+
+        <p class="france-visa-step-desc">
+        Dans la partie suivante <strong>“Votre document de voyage”</strong>, renseignez les informations de votre passeport : autorité émettrice, numéro, date de délivrance et d’expiration.
+        </p>
+
+        <p class="france-visa-step-desc">
+        Enfin, dans <strong>“Votre projet”</strong>, indiquez les raisons de votre séjour (études, stage, visite...) ainsi que le motif principal du séjour.
+        </p>
+
+        <img src="/CCFG-667/img/france-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
+
+        <p class="france-visa-step-desc">
+        À la fin du formulaire, un <strong>PDF Cerfa</strong> ainsi qu’un <strong>récépissé</strong> listant les pièces justificatives seront générés automatiquement. Vous devrez les télécharger et les imprimer pour la suite du processus.
+        </p>
     </section>
 
     <section class="france-visa-step">
@@ -91,9 +115,9 @@ require_once '../includes/header.php';
         <a href="#" class="btn-secondary">Étape suivante</a>
     </nav>
 
-    <footer class="france-visa-footer">
+    <section class="france-visa-footer">
         <p>Pour plus d'informations, consultez le site officiel de France-Visas.</p>
-    </footer>
+    </section>
 </main>
 
 <?php require_once '../includes/footer.php'; ?>
