@@ -1,4 +1,6 @@
 <?php
+$entete = "Dossier France-Visas";
+$title = "Dossier France-Visas";
 require_once '../includes/header.php';
 ?>
 

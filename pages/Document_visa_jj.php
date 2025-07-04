@@ -13,12 +13,13 @@ require_once '../includes/header.php';
   <section class="france-visa-section">
     <h2 class="france-visa-step-title">✅ Liste des documents déjà validés</h2>
     <ul class="france-visa-doc-list">
-      <li>Attestation de ressources (<strong>AVI</strong> ou <strong>prise en charge</strong>)</li>
+      <li>Attestation de ressources version originale (<strong>AVI</strong> ou <strong>prise en charge</strong>)</li>
       <li>Document de voyage (<strong>passeport complet</strong> – toutes les pages scannées)</li>
       <li>Attestation de préinscription <strong>Campus France / EEF</strong></li>
       <li class="doc-important">Pour les mineurs : joindre une <strong>autorisation parentale signée</strong> + une <strong>copie de la pièce d'identité du parent signataire</strong></li>
+      <li>Assurance de <strong>voyage</strong></li>
     </ul>
-    
+
   </section>
   <section class="france-visa-section">
     <h2 class="france-visa-step-title">📄 Scanner un document PDF</h2>
