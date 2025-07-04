@@ -31,15 +31,15 @@ require_once '../includes/header.php';
         <a href="https://france-visas.gouv.fr/" target="_blank" class="btn-primary">Accéder à France-Visas</a>
         <div class="france-visa-step-img">
             <!-- Insérez une capture d'écran pertinente pour cette étape ci-dessous -->
-            <img src="../img/France-visa1.PNG" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/France-visa2.PNG" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/France-visa_creer_compte.PNG" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/France-visa1.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+<img src="../img/France-visa2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+<img src="../img/France-visa_creer_compte.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
 
             <br>
             <br>
             <p>Normalement, vous devriez recevoir un e-mail de confirmation pour activer votre compte et vous connecter directement.</p>
-            <img src="../img/FRvisa_confirmation.PNG" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
-<img src="../img/FRvisa_confirmation2.PNG" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+            <img src="../img/FRvisa_confirmation.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
+<img src="../img/FRvisa_confirmation2.png" alt="Capture d’écran du formulaire de demande de visa en ligne (France-Visas)">
         </div>
     </section>
 
@@ -52,13 +52,13 @@ require_once '../includes/header.php';
         Après avoir créé votre compte, accédez à votre tableau de bord. Cliquez sur le bouton <strong>“Créer une nouvelle demande dans un nouveau groupe”</strong> pour démarrer une nouvelle demande individuelle.
         </p>
 
-        <img src="../img/France-visaE2.1.PNG" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
+        <img src="../img/France-visaE2.1.png" alt="Créer une nouvelle demande dans un nouveau groupe" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Vous serez ensuite redirigé vers un formulaire en plusieurs sections. Dans la première, <strong>“Votre situation”</strong>, sélectionnez votre nationalité et précisez si vous voyagez avec un membre de famille ressortissant de l’UE ou non.
         </p>
 
-        <img src="../img/France-visaE2.2.PNG" alt="Section Votre situation et séjour" class="france-visa-img" />
+        <img src="../img/France-visaE2.2.png" alt="Section Votre situation et séjour" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
         Ensuite, dans <strong>“Votre séjour”</strong>, indiquez :
@@ -77,7 +77,7 @@ require_once '../includes/header.php';
         Enfin, dans <strong>“Votre projet”</strong>, indiquez les raisons de votre séjour (études, stage, visite...) ainsi que le motif principal du séjour.
         </p>
 
-        <img src="../img/France-visaE2.3.PNG" alt="Document de voyage et projet" class="france-visa-img" />
+        <img src="../img/France-visaE2.3.png" alt="Document de voyage et projet" class="france-visa-img" />
     </section>
 
     <section class="france-visa-step">
@@ -88,12 +88,12 @@ require_once '../includes/header.php';
         <p class="france-visa-step-desc">
             Après avoir rempli les sections précédentes, vous serez redirigé vers la section <strong>“Vos informations”</strong>. Ici, vous devrez fournir des informations personnelles telles que votre nom, prénom, date de naissance, adresse, numéro de téléphone
         </p>
-        <img src="../img/France-visaE3.1.PNG" alt="Section Vos informations" class="france-visa-img" />
+        <img src="../img/France-visaE3.1.png" alt="Section Vos informations" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
             Ensuite, dans la section <strong>“Vos coordonnées”</strong>, indiquez votre adresse e-mail et votre numéro de téléphone. Assurez-vous que ces informations sont correctes, car elles seront utilisées pour vous contacter concernant votre demande de visa.
         </p>
-        <img src="../img/France-visaE3.2.PNG" alt="Section Vos coordonnées" class="france-visa-img" />
+        <img src="../img/France-visaE3.2.png" alt="Section Vos coordonnées" class="france-visa-img" />
 
         <p class="france-visa-step-desc">
            votre famille&nbsp;: indiquez si vous rejoignez un membre de votre famille qui vit en France. Si c’est le cas, fournissez les informations demandées (nom, prénom, adresse, lien de parenté).
@@ -102,7 +102,7 @@ require_once '../includes/header.php';
         <p class="france-visa-step-desc">
             Votre activité professionnelle : indiquez votre situation actuelle (étudiant) le secteur c'est enseignement et fournissez les détails nécessaires (nom de l’établissement, adresse, numéro de téléphone).
         </p>
-        <img src="../img/France-visaE3.3.PNG" alt="Section Votre activité professionnelle" class="france-visa-img" />
+        <img src="../img/France-visaE3.3.png" alt="Section Votre activité professionnelle" class="france-visa-img" />
     </section>
 
     <section class="france-visa-step">
@@ -138,7 +138,7 @@ require_once '../includes/header.php';
         <p class="france-visa-step-desc">
             <strong>Boursier&nbsp;:</strong> indiquez si vous êtes boursier. Si oui, précisez le type de bourse et l’organisme qui la délivre.
         </p>
-        <img src="../img/France-visaE5.1.PNG" alt="Section Boursier" class="france-visa-img">
+        <img src="../img/France-visaE5.1.png" alt="Section Boursier" class="france-visa-img">
     </section>
 
     <section class="france-visa-step">
@@ -155,7 +155,7 @@ require_once '../includes/header.php';
             </ul>
         </p>
 
-        <img src="../img/France-visaE6.1.PNG" alt="Section Personne ou organisme d'accueil" class="france-visa-img"><br>
+        <img src="../img/France-visaE6.1.png" alt="Section Personne ou organisme d'accueil" class="france-visa-img"><br>
 
         <p class="france-visa-step-desc">
             <strong>Financement des frais de voyage :</strong> indiquez comment seront financés vos frais de séjour en France. Deux possibilités :
@@ -168,7 +168,7 @@ require_once '../includes/header.php';
             <strong>Conseil :</strong> Soyez précis dans les coordonnées et justificatifs nécessaires pour chaque option choisie.
         </p>
 
-        <img src="../img/France-visaE6.2.PNG" alt="Section Contacts et financement" class="france-visa-img">
+        <img src="../img/France-visaE6.2.png" alt="Section Contacts et financement" class="france-visa-img">
     </section>
 
 
@@ -209,7 +209,7 @@ require_once '../includes/header.php';
             <li>Attestation de pré-inscription générée par l’application EEF-Pastel, mentionnant le n° d’identifiant EEF.</li>
             <li>Pour les pays hors procédure EEF : dernier diplôme obtenu.</li>
         </ul>
-        <img src="../img/France-VisaE7.2.PNG" alt="" class="france-visa-img"><br>
+        <img src="../img/France-VisaE7.2.png" alt="" class="france-visa-img"><br>
 
         <h4>Ressources</h4>
         <ul>
@@ -226,7 +226,7 @@ require_once '../includes/header.php';
             <li>Justificatif d'hébergement : réservation d'hôtel, contrat de bail, attestation/engagement sur l'honneur de l'hébergeant (établissement/institution ou particulier) ou lettre explicative sur la manière dont vous envisagez de vous loger.</li>
 
         </ul>
-        <img src="../img/France-visaE7.3.PNG" alt="" class="france-visa-img">
+        <img src="../img/France-visaE7.3.png" alt="" class="france-visa-img">
         <p class="france-visa-step-desc" style="font-style:italic;">
             Conseil : Préparez et numérisez tous vos documents à l’avance pour éviter tout retard ou refus lors du rendez-vous.
         </p>
