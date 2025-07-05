@@ -243,7 +243,7 @@ require_once '../includes/header.php';
             Vous avez maintenant toutes les informations pour compléter votre demande de visa étudiant France. Relisez bien chaque étape et assurez-vous d’avoir  mis les informations et tous les documents nécessaires.
         </p>
 
-        <p class="france-visa-step-desc"> Il est aussi recommandé de : télécharger le récepicé en format PDF pour vérifier si c'est le informations que vous avez saisi.</p>
+        <p class="france-visa-step-desc"> Il est aussi recommandé de : télécharger le récepicé en format PDF pour vérifier que c'est les informations que vous avez saisi qui sont présentes sur le document.</p>
 
             <img src="../img/France-visaFini.png" alt="Section Personne ou organisme d'accueil" class="france-visa-img"><br>
 
