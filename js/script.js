@@ -153,12 +153,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "Réception Attestation Campus France",
     "Assurance Voyage",
     "Attestation Bancaire",
-    "Dépôt Dossier à Capago",
+    "Dépôt de dossier à Campus France",
+    "Dépôt de dossier à Capago",
     "Résultat du Visa",
     "Voyage 🎉"
   ];
 
-  const currentStepIndex = 1; // On CHANGE ICI pour indiquer l’étape actuelle (0 = première étape)
+  const currentStepIndex = 6; // On CHANGE ICI pour indiquer l’étape actuelle (0 = première étape)
   const container = document.getElementById("timeline");
 
   steps.forEach((step, index) => {
